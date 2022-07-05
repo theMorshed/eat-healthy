@@ -1,0 +1,49 @@
+/* general style */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.gradientColor {
+    background-image: linear-gradient(to left, #FF1E1E, #FBA24F);
+}
+
+/* start welcomeSection style */
+.welcomeSection {
+    display: flex;
+    margin: 0 5%;
+}
+.welcomeSection .halfWidth {
+    width: 50%;
+}
+.welcomeSection h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #575757;
+}
+.welcomeSection p {
+    color: #828282;
+    font-size: 20px;
+    font-weight: 600;
+}
+.welcomeSection span {
+    color: #FBA24F;
+}
+.welcomeSection img {
+    width: 100%;
+}
+.welcomeSection .orderBtn {
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+.welcomeSection .builder {
+    background-image: url(images/shapes/Group\ 8450.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
