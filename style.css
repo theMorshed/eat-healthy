@@ -6,14 +6,26 @@ body {
 .gradientColor {
     background-image: linear-gradient(to left, #FF1E1E, #FBA24F);
 }
+.orderBtn {
+    padding: 20px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 30px;
+    display: inline-block;
+    box-shadow: 10px 10px 40px #fba24f;
+}
+.halfWidth {
+    width: 50%;
+}
 
 /* start welcomeSection style */
 .welcomeSection {
     display: flex;
     margin: 0 5%;
-}
-.welcomeSection .halfWidth {
-    width: 50%;
+    padding-bottom: 150px;
 }
 .welcomeSection h1 {
     font-size: 60px;
@@ -29,21 +41,46 @@ body {
     color: #FBA24F;
 }
 .welcomeSection img {
-    width: 100%;
+    width: 650px;
+    height: 788px;
 }
-.welcomeSection .orderBtn {
-    padding: 20px 40px;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
+.welcomeSection .welcomeText {
+    padding-top: 200px;
 }
 .welcomeSection .builder {
-    background-image: url(images/shapes/Group\ 8450.png);
+    background-image: url(images/shapes/welcomeBG.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+}
+
+/* aboutSection start */
+.aboutSection {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.aboutSection .about {
+    display: flex;
+    margin: 0 10%;
+    padding-top: 50px;
+}
+.aboutSection .aboutText {
+    padding: 60px 200px 0;
+}
+.aboutSection h2 {
+    color: #707070;
+    font-size: 40px;
+    font-weight: 700;
+}
+.aboutSection p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #18191F;
+}
+.aboutText a {
+    margin-top: 85px;
+}
+.aboutSection img {
+    width: 338px;
+    height: 536px;
 }
